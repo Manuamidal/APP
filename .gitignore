@@ -1,0 +1,87 @@
+# Root-level gitignore for monorepo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Node.js
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo / React Native / TypeScript
+.expo/
+build/
+dist/
+web-build/
+*.expo-shared/
+*.tsbuildinfo
+
+# Android
+/android/
+*.apk
+*.aar
+*.keystore
+
+# iOS
+/ios/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdata/
+*.mode1v3/
+*.pbxuser
+*.perspectivev3
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.env.*
+*.sqlite3
+*.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Python virtual environment (common names)
+venv/
+.env/
+.env.local
+.venv/
+
+# Backend
+medical_backend/__pycache__/
+medical_backend/*.sqlite3
+medical_backend/*.db
+
+# Mobile app
+Firstapp/node_modules/
+Firstapp/.expo/
+Firstapp/dist/
+Firstapp/web-build/
+Firstapp/*.expo-shared/
+
+# Ignore local files
+*.local
+
+# Ignore lockfiles if you intend to use a different package manager
+# Uncomment the one you use
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
